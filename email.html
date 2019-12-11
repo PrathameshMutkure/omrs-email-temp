@@ -1,9 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>GCI</title>
+
+        <style type="text/css">
+
+            body {
+                background: #e6e6e6;
+            }
+            .body-page {
+		        max-width: 800px;
+		        padding: 3%;
+		        margin: 0 auto;
+                margin-top: -300px;
+            }
+            .main {
+                margin: 0 auto;
+                background: white;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: 15px;
+            }
+            .decor {
+                width: 100%;
+                height: 350px;
+                background: blueviolet;
+                border-bottom-left-radius:25%;
+                border-bottom-right-radius:25%;
+            }
+            .omrs-logo {
+                max-height: 100px;
+                float: left;
+                margin: 2%;
+            }
+            .gci-logo {
+                max-width: 100px;
+                float: right;
+                margin: 2%;
+            }
+            .banner-img {
+                max-width: 100%;
+                margin: 0 auto;
+            }
+        </style>
     </head>
+
     <body>
-        
+        <div class="decor"></div>
+
+        <div class="body-page">
+            <div class="main">
+                <header class="main">
+                    <img src="resources/omrs-logo.jpg" alt="OpenMRS Logo" class="omrs-logo">
+                    <img src="resources/gci-logo.png" alt="GCI Logo" class="gci-logo">
+                </header>
+
+                <div class="banner">
+                    <img src="resources/banner.jpeg" alt="Banner" class="banner-img" >
+                </div>
+
+                <h1>Thanks!</h1>
+            </div>
+        </div>
     </body>
 </html>
